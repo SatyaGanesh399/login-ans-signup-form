@@ -1,0 +1,59 @@
+
+.jumbotron{
+    text-align: center;
+    width: 100%;
+
+}
+.jumbotron h1{
+    font-size: 4rem;
+}
+.registration-form, .login-form{
+    color: azure;
+    width: 800px;
+    margin: 10px auto;
+    background-image: radial-gradient(circle, #454545, #373737, #292a2a, #1c1d1d, #0f100f);
+    border-radius: 20px;
+    padding: 10px 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.request-registration{
+    color: aliceblue;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.wrapper, .signup-text, .login-text{
+    text-align: center;
+}
+.container{
+    padding: 50px;
+    border-radius: 10px;
+    width: 100%;
+    background-image: url(background.jpg);
+}
+.container .right{
+    margin-top: 70px;
+}
+.container .left{
+    margin-top: 100px;
+}
+.login-form{
+    width: 60%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.registration-form{
+    padding: 10px;
+    width: 70%;
+}
+.alert{
+    margin: 10px auto;
+    text-align: center;
+    display: none;
+}
+/* #login-success, #login-fail{
+    display: block;
+} */
+
+
